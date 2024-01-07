@@ -28,11 +28,17 @@ header img {
 .icons {
     display: flex;
     justify-content: space-between;
-    margin-right: 20px; /* Adjusted margin */
-}
+    align-items: center; /* Vertically align icons */
+    margin-right: 20px;
+    cursor: pointer; 
+  }
+  
+  .icons > * {
+    margin-left: 10px; /* Optional left margin for spacing within container */
+  }
 
 .icons i {
-    font-size: 24px; /* Adjusted icon size */
+    font-size: 25px; /* Adjusted icon size */
 }
 
 main {
