@@ -153,19 +153,27 @@ p {
     text-decoration: underline;
   }
 
-footer {
+  footer {
     background-color: #000;
     color: white;
-    text-align: center;
-    padding: 15px 0;
-}
-
-.social-icons a {
-    margin: 0 15px;
-}
-
-.social-icons img {
+    padding: 10px 0;
+    text-align: center; /* Align all elements in the footer to the center */
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between; /* Distribute elements evenly across the row */
+    margin-top: 20px;
+  }
+  
+  .email, .phone, .social-icons { /* Style all three elements consistently */
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
     width: 30px;
     height: 30px;
-    border-radius: 50%; /* Rounded social icons */
-}
+    border-radius: 50%;
+  }
+  
+   
