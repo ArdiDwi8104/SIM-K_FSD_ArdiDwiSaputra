@@ -15,14 +15,14 @@ header {
 }
 
 header img {
-    width: 100px; /* Adjusted logo size */
+    width: 100px;
     height: 100px;
 }
 
 .title {
     font-size: 25px;
     font-weight: bold;
-    margin-left: 20px; /* Adjusted margin */
+    margin-left: 20px;
 }
 
 .icons {
@@ -30,29 +30,29 @@ header img {
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
-  }
-  
-  .icons > * {
-    margin-left: 20px;
-  }
-  
-  .icons i {
-    font-size: 25px;
-    color: white; /* Set icon color to white */
-  }
-  
-  .icon-link {
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Inherit white color from parent */
-  }
+}
 
-  main {
+.icons > * {
+    margin-left: 20px;
+}
+
+.icons i {
+    font-size: 25px;
+    color: white;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
     width: 100%;
     background-color: #f5f5f5;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Adjusted alignment */
+    align-items: flex-start;
 }
 
 .navbar {
@@ -61,7 +61,6 @@ header img {
     list-style-type: none;
     padding: 0;
     background-color: grey;
-
 }
 
 .navbar a {
@@ -90,21 +89,20 @@ main img {
     float: right;
 }
 
-.kolom1 {
-    width: 40%;
-    padding: 50px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
+.kolom1,
 .kolom2 {
     width: 40%;
     padding: 50px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kolom1 {
+    text-align: center;
+}
+
+.kolom2 {
     text-align: left;
 }
 
@@ -136,44 +134,36 @@ button {
 }
 
 button:hover {
-    background-color: #333; /* Darkened color on hover */
+    background-color: #333;
 }
 
 p {
     margin-top: 10px;
     text-align: center;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: #000;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
+}
 
   footer {
     background-color: #000;
     color: white;
-    padding: 10px 0;
-    text-align: center; /* Align all elements in the footer to the center */
-  }
-  
-  .contact-info {
-    display: flex;
-    justify-content: space-between; /* Distribute elements evenly across the row */
-    margin-top: 20px;
-  }
-  
-  .email, .phone, .social-icons { /* Style all three elements consistently */
-    margin: 0 10px;
-  }
-  
-  .social-icons img {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.social-icons a {
+    margin: 0 15px;
+}
+
+.social-icons img {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-  }
-  
-   
+    border-radius: 50%; /* Rounded social icons */
+}
