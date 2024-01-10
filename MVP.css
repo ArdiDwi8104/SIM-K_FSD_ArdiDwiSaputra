@@ -151,19 +151,30 @@ a:hover {
     text-decoration: underline;
 }
 
-  footer {
+footer {
     background-color: #000;
     color: white;
     text-align: center;
-    padding: 15px 0;
-}
-
-.social-icons a {
-    margin: 0 15px;
-}
-
-.social-icons img {
-    width: 30px;
-    height: 30px;
+    padding: 10px 10px;
+  }
+  
+  .contact-info {
+    display: flex; /* Arrange elements in a row */
+    justify-content: space-between; /* Distribute elements evenly */
+    align-items: center; /* Vertically align elements */
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  .social-icons img {
+    width: 50px; /* Adjust icon size if needed */
+    height: 50px;
     border-radius: 50%; /* Rounded social icons */
-}
+  }
+  
+  
+  
+  
